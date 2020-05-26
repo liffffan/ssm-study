@@ -6,9 +6,11 @@
 <configuration>
     <!--  引入外部配置文件  -->
     <properties resource="db.properties">
-        <property name="username" value="root"/>
-        <property name="password" value="111111"/>
     </properties>
+
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
 
     <!--  可以给实体类起别名  -->
     <typeAliases>
