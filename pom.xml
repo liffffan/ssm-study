@@ -8,15 +8,18 @@
     <artifactId>day01_mybatis</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>mybatis-01</module>
-        <module>mybatis-02</module>
-        <module>mybatis-03</module>
-        <module>mybatis-04</module>
+        <module>spring-study-01</module>
     </modules>
     <packaging>pom</packaging>
 
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
