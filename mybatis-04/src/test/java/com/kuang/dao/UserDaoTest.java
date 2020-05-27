@@ -4,11 +4,15 @@ import com.kuang.dao.UserMapper;
 import com.kuang.pojo.User;
 import com.kuang.utils.MybatisUtils;
 import org.apache.ibatis.session.SqlSession;
+import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import java.util.List;
 
 public class UserDaoTest {
+
+    static Logger logger = Logger.getLogger(UserDaoTest.class);
+
 
     @Test
     public void test() {
@@ -41,4 +45,10 @@ public class UserDaoTest {
     }
 
 
+    @Test
+    public void testLog4j() {
+        logger.info("info:进入了 testLog4j");
+        logger.debug("debug:进入了 testLog4j");
+        logger.error("error:进入了 testLog4j");
+    }
 }
