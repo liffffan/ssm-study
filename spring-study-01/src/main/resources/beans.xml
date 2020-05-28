@@ -11,7 +11,9 @@
         class = new 的对象
         peoperty 相当于给对象中的属性设置一个值
     -->
+    <!--  id:new 的对象，  class:具体的类  -->
     <bean id="hello" class="com.kuang.pojo.Hello">
+        <!--   name: 属性    value:具体的值，基本数据类型  ref:引用 Spring 容器中创建好的对象 -->
         <property name="name" value="Spring" />
     </bean>
 
