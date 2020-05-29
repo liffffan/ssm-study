@@ -1,10 +1,10 @@
 package com.kuang.pojo;
 
-public class User {
+public class UserT {
     private String name;
 
-    public User(String name) {
-        this.name = name;
+    public UserT() {
+        System.out.println("UserT被创建了");
     }
 
     public String getName() {

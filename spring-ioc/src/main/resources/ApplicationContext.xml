@@ -2,12 +2,6 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="user" class="com.kuang.pojo.User">
-        <constructor-arg name="name" value="狂神说java3" />
-    </bean>
 
-    <bean id="userT" class="com.kuang.pojo.UserT">
-    </bean>
-
-    <alias name="user" alias="kuangshen" />
+    <import resource="beans.xml" />
 </beans>
