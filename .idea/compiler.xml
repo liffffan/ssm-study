@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-Autowired" />
         <module name="mybatis-04" />
         <module name="spring-ioc" />
         <module name="mybatis-02" />
@@ -15,14 +16,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="day01_mybatis" target="1.8" />
+      <module name="day01_mybatis" target="1.5" />
       <module name="mybatis-01" target="1.8" />
       <module name="mybatis-02" target="1.8" />
       <module name="mybatis-03" target="1.8" />
       <module name="mybatis-04" target="1.8" />
-      <module name="spring-ioc" target="1.8" />
-      <module name="spring-study-01" target="1.8" />
-      <module name="spring-study-03" target="1.8" />
+      <module name="spring-Autowired" target="1.5" />
+      <module name="spring-ioc" target="1.5" />
+      <module name="spring-studey-05" target="1.5" />
+      <module name="spring-study-01" target="1.5" />
+      <module name="spring-study-03" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
