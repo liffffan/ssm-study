@@ -11,8 +11,9 @@
         <module>spring-study-01</module>
         <module>spring-ioc</module>
         <module>spring-study-03</module>
-        <module>spring-studey-05</module>
         <module>spring-Autowired</module>
+        <module>spring-study-05</module>
+        <module>spring-study-07</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring-ioc/spring-ioc.iml" filepath="$PROJECT_DIR$/spring-ioc/spring-ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-study-01/spring-study-01.iml" filepath="$PROJECT_DIR$/spring-study-01/spring-study-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-study-03/spring-study-03.iml" filepath="$PROJECT_DIR$/spring-study-03/spring-study-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-study-05/spring-study-05.iml" filepath="$PROJECT_DIR$/spring-study-05/spring-study-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-study-06.iml" filepath="$PROJECT_DIR$/spring-study-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-study-07/spring-study-07.iml" filepath="$PROJECT_DIR$/spring-study-07/spring-study-07.iml" />
     </modules>
   </component>
 </project>
